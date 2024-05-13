@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+<!--<script>alert("Hello World!");</script>-->		
+		<script src="fancifymytext.js"></script>
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+
+		<form>
+		<fieldset>
+			<!--Field for users to enter multi-line amounts of text-->
+			<legend>Text</legend>
+			<textarea rows = "4" cols = "30" name = "userText" id="textBox"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<!--Bigger! button-->
+			<legend>Fancify</legend>
+			<button type="button" id="biggerBtn">Bigger!</button>
+			<br>
+
+			<!--Moo button: uppercase text-->
+			<button type="button" id="mooBtn" onclick="uppercaseText()">Moo</button>
+			<br>
+			<!--Radio buttons-->
+			<input type="radio" id="fancyShmancy" name="fancifyOption">
+            <label for="fancyShmancy">FancyShmancy</label>
+            <br>
+            <input type="radio" id="boringBetty" name="fancifyOption">
+            <label for="boringBetty">BoringBetty</label>
+
+		</fieldset>
+
+	</form>
+		<!-- Your UI controls go here -->
+
+	</body>
+</html>
